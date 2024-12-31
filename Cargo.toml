@@ -1,0 +1,16 @@
+[package]
+name = "memorymap"
+version = "0.1.0"
+edition = "2021"
+
+# Optional metadata
+authors = ["Sreeraj V. Rajesh <cyberkutti@gmail.com>"]  
+description = "A command-line tool to analyze memory usage of ELF files for AVR microcontrollers"
+license = "GPL-3.0"
+repository = "https://github.com/cyberkutti-iedc/memorymap"  
+homepage = "https://github.com/cyberkutti-iedc/memorymap" 
+
+
+[dependencies]
+clap = "3.0"  # For handling command-line arguments
+regex = "1"   # For regex parsing
