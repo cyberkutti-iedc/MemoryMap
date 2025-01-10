@@ -1,7 +1,3 @@
-Here’s the updated **README** with the new name, **MemoryMap**, reflecting the changes you requested:
-
----
-
 # MemoryMap
 
 **MemoryMap** is a command-line utility to analyze the memory usage of `.elf` files for AVR microcontrollers. It uses `avr-size` to extract details about memory sections such as ROM and RAM usage, making it easier to optimize embedded applications.
